@@ -2,35 +2,41 @@
 .homebody{
     background-color:#b8b9ba;
     text-align:center;
+    white-space:nowrap;
+    background-image:url("Resources/PaulMorris.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
 }
 
 .profilepic{
-    float:left;
+    display:inline-block;
     border-radius:500px;
     width:400px;
-    margin-left:30px;
-    margin-right:0;
+    margin-left:0;
+    margin-right:auto;
 }
 
 .separator{
     margin:0;
     padding:0;
     height:360px;
-    margin:0;
-    float:left;
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .paragraph{
     width:555px;
     height:355px;
     background-color:#e8e176;
-    display:inline-block;
     border-radius:10px;
-    margin:0;
-    float:left;
+    display:inline-block;
     font-size:18px;
     text-align:center;
-    margin-right:1;
+    margin-right:auto;
+    margin-left:auto;
+    white-space:normal;
+    vertical-align:top;
 }
 
 .linkedin{
@@ -47,10 +53,7 @@ h1{
     margin:0;
     padding:0;
 }
-h3{
-    margin:0;
-    padding:0;
-}
+
 
 h4{
     margin-top:-2%;
@@ -59,7 +62,7 @@ h4{
     background-color:#34373a;
     text-align:center;
     display:block;
-    width:100px;
+    width:200px;
     color:white;
     border-radius:10px;
 }
@@ -68,8 +71,65 @@ h4{
    background-color:#34373a;
    border-radius:5px;
    color:white;
+   margin-bottom:5%;
+   min-width:65em;
 }
 
 .section1{
-    display:inline;
+text-align:center;
+}
+
+.section2{
+    margin-top:25px;
+    background-color:#e8e176;
+    border-radius:10px;
+    display:inline-block;
+    font-size:18px;
+    margin-right:auto;
+    margin-left:auto;
+    white-space:normal;
+}
+
+h3{
+    background-color:#34373a;
+    color:white;
+    border-radius:5px;
+    min-width:65em;
+    text-align:center;
+    margin:0;
+    padding:0;
+    min-width:65em;
+}
+
+.KeySkills{
+    margin-top:20%;
+}
+
+.Communication{
+    width:500px;
+    height:460px;
+    background-color:#e8e176;
+    border-radius:10px;
+    display:inline-block;
+    font-size:18px;
+    text-align:center;
+    margin-right:10px;
+    margin-left:auto;
+    white-space:normal;
+    vertical-align:top;
+    margin-top:3%;
+}
+
+.Computer{
+    width:500px;
+    height:460px;
+    background-color:#e8e176;
+    border-radius:10px;
+    display:inline-block;
+    font-size:18px;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+    white-space:normal;
+    margin-top:3%;
 }
