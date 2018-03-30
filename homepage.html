@@ -2,7 +2,10 @@
 <head>
     <title>Alexander's Homepage</title>
    <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
+   <!-- favivcon lightbulb-->
    <link rel="shortcut icon" type="image/x-icon" href="Resources/favicon2.ico.ico" />
+   <script rel="text/javascript" src="myFunctions.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>    
 </head>
 
 
@@ -22,8 +25,7 @@
         <li>I am polite, wellspoken and hardworking with extensive experience in customer service gathered 
         over several years working in bars and restaurants.</li><br>
         <li>I am an active individual. I train in German JuJutsu twice a week and I am also a member of the UCC Badminton team.</li><br>
-         <li>I am passionate about technology and thoroughly enjoy experimenting with and researching
-         into innovative developments.</li><br>
+         <li>I am passionate about technology and thoroughly enjoy exploring innovative developments.</li><br>
          <li>I am also very enthusiastic about music. I enjoy playing guitar and am currently learning to play the mandolin.</li>
      </ul>
     </p>
@@ -33,43 +35,57 @@
     <div class="KeySkills">
     <h3>Key Skills</h3>
     </div>
-    
-    <div class="Communication">
-        
-          <h4>Communication and Leadership</h4>
+<button onClick="ShowCommunication()" id="Communicate">Communication and <br> Leadership</button>
+<button onClick="ShowComputer()" id="ShowComp">Computer <br> Skills</button>
+<button onClick="ShowOrganisation()" id="ShowOrganise">Organisational <br> Skills</button>
+<div id="spaceFill"> <p> <br>  <br>  <br> <br> <br> <br>  </p></div>
+
+    <div id="Communication" class="Communication">
+         <h4>Communication and Leadership</h4>
           <p>
           <ul>
               <li>In my final Year at Bandon Grammar School I was awarded the title
               of school <strong>prefect</strong>, allowing me to excersise my leadership qualities.
-              In this role I had the responsibility of setting and maintaining the highest standards
-              within the student body with regards to <strong>discipline</strong>, <strong>attitude</strong>, <strong>respect</strong> and <strong>motivation to work</strong>.</li><br>
+              In this role I had the responsibility of setting and maintaining the highest standards 
+              of <strong>discipline</strong>, <strong>attitude</strong>, <strong>respect</strong> and <strong>motivation to work</strong> within the student body.</li><br>
               <li>I have honed my <strong>ability to collaborate</strong> with others on projects over many years. In Transition year
-              I led a team of three to the finals of the <strong>BT Young Scientist and Technologist Exhibition</strong> in Dublin and throughout my 
-              first year in University I have been engaged in several group projects in which my teammates and I had to <strong>compromise</strong>, <strong>collaborate</strong>
+              I led a team of three to the finals of the <strong>BT Young Scientist and Technologist Exhibition</strong> in Dublin. Throughout my 
+              first year in University I have been engaged in several group projects in which my teammates and I had to <strong>compromise</strong>, <strong>communicate</strong>
                and <strong>delegate</strong> to achieve top grades.</li><br>
                <li>I am  adept at <strong>communicating as a team</strong> in a busy, <strong>high pressure environment</strong>. These skills have been strenghtened in my part-time position at The Glandore Inn,
-               A busy restaurant in the tourist hotspot of Glandore, West Cork.</li>
+               a busy restaurant in the tourist hotspot of Glandore, West Cork.</li>
           </ul>
         </p>
         </div>
         
-        <div class="Computer">
-                <h4>Computer Skills</h4>
+        <div id="Computer" class="Computer">
+                <h4>Computer <br>Skills</h4>
                 <p>
+                    <br>
                 <ul>
-                    <li>I am decidedly competent in the use of <strong>Microsoft Office</strong>, having completed
+                    <li>I am skilled in the use of <strong>Microsoft Office</strong>, having completed
                     my <strong>ECDL</strong> in secondary school and working with such programs on a day-to-day basis as part of my
                     University course.
                     </li><br>
-                    <li>I possess a core understanding in the programming languages of 
+                    <li>I possess a core understanding of the programming languages 
                     <strong>Visual Basic</strong>, <strong>HTML</strong>, <strong>CSS</strong> and <strong>JavaScript</strong>.
                     My profficiency in such languages is constantly developing and I am eager to further expand my skillset.</li><br>
                     <li>I can work efficiently with <strong>spreadsheets</strong> and I have an introductory level of proficiency in
-                    <strong>Database development</strong> achieved through working with <strong>Microsoft Access</strong>.</li>
+                    <strong>Database development</strong> achieved through working with <strong>Microsoft Access</strong>.</li><br>
                 </ul>
             </p>
             </div>
             
+            <div id="Organisation" class="Organisation">
+                <h4>Organisational<br> Skills</h4>
+                <p>
+                    <br>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </p>
+                
+            </div>
         </div>    
 </div>
         
