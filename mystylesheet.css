@@ -6,6 +6,56 @@
     background-image:url("Resources/PaulMorris.jpg");
     background-repeat:no-repeat;
     background-attachment:fixed;
+    overflow-y:hidden;
+}
+
+.experience{
+    height:1000px;
+}
+
+.sidenav {
+    height: 400px; /* Full-height: remove this if you want "auto" height */
+    width: 110px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color:#34373a;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    border-radius:10px;
+    margin-top:10%;
+    overflow-y:hidden; /* Disable vertical scroll */
+    margin-left:20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    padding-top:20px;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+    cursor:pointer;
+}
+
+.sidenav p{
+    color:black;
+    margin-top:0px;
+    margin-bottom:30px;
+    background-color:#e8e176;
+    border-radius:5px;
+    width:90px;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:georgia,serif;
+}
+
+.sidenav a:hover {
+    color: #e8e176;
 }
 
 .profilepic{
@@ -102,6 +152,17 @@ h3{
 
 .KeySkills{
     margin-top:20%;
+    height:25%;
+}
+
+.Experience{
+    margin-top:20%;
+    height:25%;
+}
+
+.Education{
+    margin-top:20%;
+    height:25%;
 }
 
 #Communication{
@@ -243,6 +304,3 @@ h3{
     height:440px;
 }
 
-button:hover{
-    background-color:#123875;
-}

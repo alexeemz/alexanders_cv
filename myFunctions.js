@@ -28,5 +28,35 @@ function ShowOrganisation(){
   document.getElementById("Computer").style.display="none";
   document.getElementById("ShowComp").style.display="inline-block";
   document.getElementById("ShowOrganise").style.display="none";
-  
+}
+
+function ScrollToSkills(){
+document.querySelector('.KeySkills').scrollIntoView({
+  behavior: 'smooth',
+  block: 'start'
+}
+);
+}
+
+
+function ScrollToIntro(){
+  document.querySelector('.pagetitle').scrollIntoView({
+    behavior: 'smooth',
+    block: 'start'
+  }
+  );
+}
+
+function ScrollToExperience(){
+  document.querySelector('.Experience').scrollIntoView({
+    behavior: 'smooth',
+    block: 'start'
+  });
+}
+
+function ScrollToEducation(){
+  document.querySelector('.Education').scrollIntoView({
+    behavior: 'smooth',
+    block: 'start'
+  });
 }
