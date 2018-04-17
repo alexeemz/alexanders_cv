@@ -38,7 +38,6 @@ document.querySelector('.KeySkills').scrollIntoView({
 );
 }
 
-
 function ScrollToIntro(){
   document.querySelector('.pagetitle').scrollIntoView({
     behavior: 'smooth',
