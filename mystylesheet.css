@@ -46,8 +46,6 @@ video {
     display: block;
     padding-top:20px;
     text-align:center;
-    margin-right:auto;
-    margin-left:auto;
     cursor:pointer;
 }
 
@@ -61,6 +59,7 @@ video {
     margin-left:auto;
     margin-right:auto;
     font-family:georgia,serif;
+    text-align:center;
 }
 
 .sidenav a:hover {
@@ -98,11 +97,6 @@ video {
     vertical-align:top;
 }
 
-.linkedin{
-    width:100px;
-    float:right;
-    margin-top:-3px;
-}
 
 .lowertitle{
     display:inline;
@@ -132,6 +126,7 @@ h4{
    color:white;
    margin-bottom:5%;
    min-width:65em;
+ 
 }
 
 .section1{
@@ -153,10 +148,13 @@ h3{
     background-color:#34373a;
     color:white;
     border-radius:5px;
+    max-width:65em;
     min-width:65em;
     text-align:center;
     margin:0;
     padding:0;
+    margin-right:auto;
+    margin-left:auto;
 }
 
 .KeySkills{
@@ -224,6 +222,10 @@ h3{
     cursor:pointer;
 }
 
+#Communicate:hover{
+    color:#e8e176
+}
+
 #Organisation{
      width:500px;
     height:460px;
@@ -262,6 +264,10 @@ h3{
     vertical-align: bottom;
 }
 
+#ShowComp:hover{
+    color:#e8e176;
+}
+
 /*Adding downwards arrow */
 #ShowOrganise:after{
     content: '';
@@ -271,6 +277,10 @@ h3{
     margin-bottom: 3px;
     display: inline-block;
     vertical-align: bottom;
+}
+
+#ShowOrganise:hover{
+    color:#e8e176;
 }
 
 #ShowComp{
@@ -337,7 +347,7 @@ h3{
     margin-left:1%;
     margin-right:1%;
     text-align:center;
-    margin-top:3%; 
+    margin-top:5px; 
     width:200px;
     color:white;
     border-radius:10px;
@@ -348,6 +358,10 @@ h3{
     font-family:georgia,serif;
     cursor:pointer;
     height:50px;
+}
+
+#WorkExperience:hover {
+    color:#e8e176;
 }
 
 #WorkExperience:after{
@@ -366,7 +380,7 @@ h3{
     margin-left:1%;
     margin-right:1%;
     text-align:center;
-    margin-top:3%; 
+    margin-top:5px; 
     width:200px;
     color:white;
     border-radius:10px;
@@ -389,34 +403,168 @@ h3{
     vertical-align: bottom;
 }
 
+#Volunteering:hover{
+    color:#e8e176;
+}
+
 .footer {
    position: fixed;
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: red;
+   background-color:#34373a;
    color: white;
    text-align: center;
    display:inline-block;
    height:7%;
+   border-radius:5px;
+   min-width:65em;
 }
 
 #email{
     display:inline;
     padding:2%;
+    font-size:20px;
 }
 
 #mobile{
     display:inline;
     padding:2%;
+    font-size:20px;
 }
 
-#linkedIn{
-    display:inline;
-    padding:2%;
-    text-decoration:none;
-    color:white;
+#linkedIn img{
+    margin-left:auto;
+    padding-right:5%;
+    text-align:center;
+    margin-top:50%;
+    display:block;
+    border-radius:5px;
+}
+
+.workExperience1{
+    width:300px;
+    height:400px;
+    background-color:#e8e176;
+    border-radius:10px;
+    font-size:18px;
+    text-align:center;
+    margin-right:10px;
+    margin-left:auto;
+    white-space:normal;
+    vertical-align:top;
+    margin-top:1%;
+    padding-right:10px;
+    display:inline-block;
+}
+
+.workExperience2{
+    width:300px;
+    height:400px;
+    background-color:#e8e176;
+    border-radius:10px;
+    font-size:18px;
+    text-align:center;
+    margin-right:10px;
+    margin-left:auto;
+    white-space:normal;
+    vertical-align:top;
+    margin-top:1%;
+    padding-right:10px;
+    display:inline-block;
+}
+
+.workExperience3{
+    width:300px;
+    height:400px;
+    background-color:#e8e176;
+    border-radius:10px;
+    font-size:18px;
+    text-align:center;
+    margin-right:10px;
+    margin-left:auto;
+    white-space:normal;
+    vertical-align:top;
+    margin-top:1%;
+    padding-right:10px;
+    display:inline-block;
+}
+
+#skillsIntro{
+    background-color:#e8e176;
+    border-radius:15px;
     padding-top:2%;
+    padding-bottom:2%;
+    margin-left:auto;
+    margin-right:auto;
+    width:40%;
+    margin-top:5%;
+    font-family:georgia,serif;
 }
 
+.secondary{
+   width:300px;
+    height:400px;
+    background-color:#e8e176;
+    border-radius:10px;
+    font-size:18px;
+    text-align:center;
+    margin-right:10px;
+    margin-left:auto;
+    white-space:normal;
+    vertical-align:top;
+    margin-top:1%;
+    padding-right:10px;
+    display:inline-block;
+}
 
+.university{
+    width:300px;
+    height:400px;
+    background-color:#e8e176;
+    border-radius:10px;
+    font-size:18px;
+    text-align:center;
+    margin-right:10px;
+    margin-left:auto;
+    white-space:normal;
+    vertical-align:top;
+    margin-top:1%;
+    padding-right:10px;
+    display:inline-block;
+}
+
+.filler{
+    height:400px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse:collapse;
+    margin:auto;
+    text-align:center;
+}
+
+#lcScores{
+    border-radius:2px;
+    padding:1px;
+    background-color:rgb(52, 55, 58, 0.7);
+    color:white;
+    text-decoration:none;
+}
+
+#lcScores:hover{
+    color:#e8e176;
+}
+
+#BIS{
+    border-radius:2px;
+    padding:1px;
+    background-color:rgb(52, 55, 58, 0.7);
+    color:white;
+    text-decoration:none;
+}
+
+#BIS:hover{
+    color:#e8e176;
+}

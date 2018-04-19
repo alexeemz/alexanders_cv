@@ -7,7 +7,8 @@ function ShowCommunication() {
   document.getElementById("Computer").style.display="none";
   document.getElementById("ShowComp").style.display="inline-block";
   document.getElementById("Organisation").style.display="none";
-  document.getElementById("ShowOrganise").style.display="inline-block"; 
+  document.getElementById("ShowOrganise").style.display="inline-block";
+  document.getElementById("skillsIntro").style.display="none";
 }
 
 function ShowComputer() {
@@ -17,7 +18,8 @@ function ShowComputer() {
   document.getElementById("Communication").style.display="none";
   document.getElementById("Communicate").style.display="inline-block";
   document.getElementById("Organisation").style.display="none";
-  document.getElementById("ShowOrganise").style.display="inline-block"; 
+  document.getElementById("ShowOrganise").style.display="inline-block";
+  document.getElementById("skillsIntro").style.display="none";
 }
 
 function ShowOrganisation(){
@@ -28,6 +30,7 @@ function ShowOrganisation(){
   document.getElementById("Computer").style.display="none";
   document.getElementById("ShowComp").style.display="inline-block";
   document.getElementById("ShowOrganise").style.display="none";
+  document.getElementById("skillsIntro").style.display="none";
 }
 
 function ScrollToSkills(){
