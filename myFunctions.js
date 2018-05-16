@@ -62,3 +62,15 @@ function ScrollToEducation(){
     block: 'start'
   });
 }
+
+function ShowVolunteerExperience(){
+  document.getElementsByClassName("workExperience1").style.display="none";
+  document.getElementsByClassName("workExperience2").style.display="none";
+  document.getElementsByClassName("workExperience3").style.display="none";
+  document.getElementsByClassName("VolunteerExperience1").style.display="inline-block";
+    document.getElementsByClassName("VolunteerExperience2").style.display="inline-block";
+      document.getElementsByClassName("VolunteerExperience3").style.display="inline-block";
+      document.getElementById("WorkExperience").style.color="white";
+      document.getElementById("Volunteering").style.color="#e8e176";
+}
+
