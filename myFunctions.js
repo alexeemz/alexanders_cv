@@ -64,13 +64,24 @@ function ScrollToEducation(){
 }
 
 function ShowVolunteerExperience(){
-  document.getElementsByClassName("workExperience1").style.display="none";
-  document.getElementsByClassName("workExperience2").style.display="none";
-  document.getElementsByClassName("workExperience3").style.display="none";
-  document.getElementsByClassName("VolunteerExperience1").style.display="inline-block";
-    document.getElementsByClassName("VolunteerExperience2").style.display="inline-block";
-      document.getElementsByClassName("VolunteerExperience3").style.display="inline-block";
+  document.getElementById("workExperience1").style.display="none";
+  document.getElementById("workExperience2").style.display="none";
+  document.getElementById("workExperience3").style.display="none";
+  document.getElementById("VolunteerExperience1").style.display="inline-block";
+    document.getElementById("VolunteerExperience2").style.display="inline-block";
+      document.getElementById("VolunteerExperience3").style.display="inline-block";
       document.getElementById("WorkExperience").style.color="white";
       document.getElementById("Volunteering").style.color="#e8e176";
+}
+
+function ShowWorkExperience(){
+  document.getElementById("workExperience1").style.display="inline-block";
+  document.getElementById("workExperience2").style.display="inline-block";
+  document.getElementById("workExperience3").style.display="inline-block";
+  document.getElementById("VolunteerExperience1").style.display="none";
+    document.getElementById("VolunteerExperience2").style.display="none";
+      document.getElementById("VolunteerExperience3").style.display="none";
+      document.getElementById("WorkExperience").style.color="#e8e176";
+      document.getElementById("Volunteering").style.color="white";
 }
 

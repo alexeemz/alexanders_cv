@@ -442,7 +442,7 @@ h3{
     border-radius:5px;
 }
 
-.workExperience1{
+#workExperience1{
     width:300px;
     height:400px;
     background-color:#e8e176;
@@ -458,7 +458,7 @@ h3{
     display:inline-block;
 }
 
-.workExperience2{
+#workExperience2{
     width:300px;
     height:400px;
     background-color:#e8e176;
@@ -474,7 +474,7 @@ h3{
     display:inline-block;
 }
 
-.workExperience3{
+#workExperience3{
     width:300px;
     height:400px;
     background-color:#e8e176;
@@ -585,7 +585,7 @@ table, th, td {
     color:#e8e176;
 }
 
-.VolunteerExperience1{
+#VolunteerExperience1{
     width:300px;
     height:400px;
     background-color:#e8e176;
@@ -601,7 +601,7 @@ table, th, td {
     display:none;
 }
 
-.VolunteerExperience2{
+#VolunteerExperience2{
     width:300px;
     height:400px;
     background-color:#e8e176;
@@ -617,7 +617,7 @@ table, th, td {
     display:none;
 }
 
-.VolunteerExperience3{
+#VolunteerExperience3{
     width:300px;
     height:400px;
     background-color:#e8e176;
