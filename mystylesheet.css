@@ -1,9 +1,9 @@
 
 .homebody{
-    background-color:#b8b9ba;
+    background-color:#a7c3f2;
     text-align:center;
     white-space:nowrap;
-    background-image:url("Resources/PaulMorris.jpg");
+    background-image:url("Resources/PaulMorris.jpg"); 
     background-repeat:no-repeat;
     background-attachment:fixed;
     overflow-y:hidden;
@@ -174,7 +174,7 @@ h3{
 
 #Communication{
     width:500px;
-    height:460px;
+    height:480px;
     background-color:#e8e176;
     border-radius:10px;
     font-size:18px;
@@ -440,6 +440,7 @@ h3{
     margin-top:50%;
     display:block;
     border-radius:5px;
+    margin-right:auto;
 }
 
 #workExperience1{
