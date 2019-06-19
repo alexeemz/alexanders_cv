@@ -67,21 +67,49 @@ function ShowVolunteerExperience(){
   document.getElementById("workExperience1").style.display="none";
   document.getElementById("workExperience2").style.display="none";
   document.getElementById("workExperience3").style.display="none";
+  document.getElementById('moreExp').style.display = "none";
+  document.getElementById("workExperience4").style.display="none";
   document.getElementById("VolunteerExperience1").style.display="inline-block";
     document.getElementById("VolunteerExperience2").style.display="inline-block";
       document.getElementById("VolunteerExperience3").style.display="inline-block";
       document.getElementById("WorkExperience").style.color="white";
       document.getElementById("Volunteering").style.color="#e8e176";
+      document.getElementById("backExp").style.display="none";
 }
 
 function ShowWorkExperience(){
   document.getElementById("workExperience1").style.display="inline-block";
   document.getElementById("workExperience2").style.display="inline-block";
   document.getElementById("workExperience3").style.display="inline-block";
+  document.getElementById("moreExp").style.display="inline-block";
   document.getElementById("VolunteerExperience1").style.display="none";
     document.getElementById("VolunteerExperience2").style.display="none";
       document.getElementById("VolunteerExperience3").style.display="none";
       document.getElementById("WorkExperience").style.color="#e8e176";
       document.getElementById("Volunteering").style.color="white";
+      document.getElementById("backExp").style.display="none";
 }
 
+function showMoreExp(){
+  document.getElementById("workExperience1").style.display="none";
+  document.getElementById("workExperience2").style.display="none";
+  document.getElementById("workExperience3").style.display="none";
+  document.getElementById("moreExp").style.display="none";
+  document.getElementById("backExp").style.display="inline-block";
+  document.getElementById("workExperience4").style.display="inline-block"
+  document.getElementById("VolunteerExperience1").style.display="none";
+  document.getElementById("VolunteerExperience2").style.display="none";
+  document.getElementById("VolunteerExperience3").style.display="none";
+}
+
+function showLessExp(){
+  document.getElementById("workExperience1").style.display="inline-block";
+  document.getElementById("workExperience2").style.display="inline-block";
+  document.getElementById("workExperience3").style.display="inline-block";
+  document.getElementById("moreExp").style.display="inline-block";
+  document.getElementById("backExp").style.display="none";
+  document.getElementById("workExperience4").style.display="none";
+  document.getElementById("VolunteerExperience1").style.display="none";
+  document.getElementById("VolunteerExperience2").style.display="none";
+  document.getElementById("VolunteerExperience3").style.display="none";
+}
