@@ -113,3 +113,30 @@ function showLessExp(){
   document.getElementById("VolunteerExperience2").style.display="none";
   document.getElementById("VolunteerExperience3").style.display="none";
 }
+
+
+
+
+//Scroll on arrows pressed
+
+//determines the current section...when web page is loaded it begins on 1(about me)
+var currentView = 1;
+
+
+
+
+
+document.onkeydown = checkKey(e);
+
+function checkKey(){
+  
+  e = e || window.event;
+  
+if (e.keyCode == '38' ){
+
+   if( currentView = 1){
+     
+   }
+
+}
+}
